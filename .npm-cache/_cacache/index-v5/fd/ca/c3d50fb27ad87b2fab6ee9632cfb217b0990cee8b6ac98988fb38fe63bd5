@@ -1,2 +1,0 @@
-
-b70b782300c38cb505f0ae8e20cbc2926f36b3e6	{"key":"make-fetch-happen:request-cache:http://registry.npm.taobao.org/@deepseek-ai%2fcordis-plugin-loader","integrity":null,"time":1791972532278,"size":"262","metadata":{"time":1791972532278,"url":"http://registry.npm.taobao.org/@deepseek-ai%2fcordis-plugin-loader","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 14 Oct 2026 10:08:52 GMT","location":"https://registry.npmmirror.com/@deepseek-ai%2fcordis-plugin-loader"},"options":{"compress":true},"status":301}}

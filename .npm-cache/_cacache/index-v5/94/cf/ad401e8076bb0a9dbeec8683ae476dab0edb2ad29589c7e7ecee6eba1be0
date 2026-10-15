@@ -1,2 +1,0 @@
-
-6c8d215fa079d3410751487fa45586f9405883ea	{"key":"make-fetch-happen:request-cache:http://registry.npm.taobao.org/scheduler","integrity":null,"time":1791972533054,"size":"262","metadata":{"time":1791972533054,"url":"http://registry.npm.taobao.org/scheduler","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Wed, 14 Oct 2026 10:08:53 GMT","location":"https://registry.npmmirror.com/scheduler"},"options":{"compress":true},"status":301}}
