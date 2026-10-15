@@ -1,0 +1,84 @@
+# Register the "open in another app" control beside the built-in one.
+#
+# The built-in @deepseek-ai/dsh-host-open-in-app resolves a table fixed at
+# build time, so this row is an ADDITION, never a replacement: both plugins
+# stay mounted and both controls appear in the Session header.
+#
+# Declare applications under config.apps. Each entry resolves on the first
+# request that needs it; an entry that does not resolve here is simply absent
+# from the menu, so one catalog can serve several machines.
+#
+# These entries are DEFAULTS, not a fixed list: the Session-header control's
+# "Manage applications…" dialog removes any of them (the removal is recorded in
+# the store, never written back here) and adds more through the system
+# application chooser. Declaring an entry only means it is offered out of the
+# box; it does not mean it cannot be dismissed.
+#
+# Locator kinds: `app` (a bundle/application by absolute path), `file` (an
+# executable by absolute path), `cli` (a PATH command). The first locator that
+# verifies wins. An `app` locator opens by identity (macOS `open -a`); every
+# other locator runs by argv with the directory appended — or substituted into
+# a `{path}` token when a declared arg carries one.
+#
+# `platforms` overrides `locators` wholesale for one `process.platform`, the
+# same way the built-in catalog treats a per-platform spec as the whole answer.
+- insert:
+    - id: open-workspace-any-app
+      name: dsh-open-workspace-any-app
+      config:
+        # Raise this if a slow network mount makes a probe hang.
+        resolveBudgetMs: 15000
+        probeTimeoutMs: 10000
+        iconTimeoutMs: 10000
+        launchWatchMs: 1000
+        apps:
+          # --- this machine's applications -------------------------------------
+          # Zap: a terminal that declares `public.folder`, so it takes the
+          # directory directly (the built-in catalog has no Zap entry).
+          - id: zap
+            label: Zap
+            locators:
+              - kind: app
+                paths:
+                  - /Applications/Zap.app
+                  - ~/Applications/Zap.app
+
+          # Qoder IDE: its launcher CLI is the reliable way in, because the
+          # bundle is not the machine-wide default for a folder.
+          - id: qoder
+            label: Qoder IDE
+            iconBundle: /Applications/Qoder IDE.app
+            locators:
+              - kind: cli
+                command: qoder
+              - kind: app
+                paths:
+                  - /Applications/Qoder IDE.app
+
+          # IntelliJ IDEA ships a launcher script that takes a directory.
+          - id: idea
+            label: IntelliJ IDEA
+            iconBundle: /Applications/IntelliJ IDEA.app
+            locators:
+              - kind: cli
+                command: idea
+              - kind: app
+                paths:
+                  - /Applications/IntelliJ IDEA.app
+
+          # Obsidian: a vault is a folder, so the bundle takes it directly.
+          - id: obsidian
+            label: Obsidian
+            locators:
+              - kind: app
+                paths:
+                  - /Applications/Obsidian.app
+
+          # HBuilderX: no CLI on PATH, so the bundle is the only route.
+          - id: hbuilderx
+            label: HBuilderX
+            locators:
+              - kind: app
+                paths:
+                  - /Applications/HBuilderX.app
+                  - ~/Applications/HBuilderX.app

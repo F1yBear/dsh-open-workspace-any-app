@@ -1,0 +1,157 @@
+0 verbose cli /Users/wangfeixiong/.nvm/versions/node/v22.23.1/bin/node /Users/wangfeixiong/.nvm/versions/node/v22.23.1/bin/npm
+1 info using npm@10.9.8
+2 info using node@v22.23.1
+3 silly config load:file:/Users/wangfeixiong/.nvm/versions/node/v22.23.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/.npmrc
+5 silly config load:file:/Users/wangfeixiong/.npmrc
+6 silly config load:file:/Users/wangfeixiong/.nvm/versions/node/v22.23.1/etc/npmrc
+7 verbose title npm install react@18.3.1 react-dom@18.3.1 @deepseek-ai/schemastery@3.18.4
+8 verbose argv "install" "--no-save" "--no-audit" "--no-fund" "--cache" "/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/.npm-cache" "react@18.3.1" "react-dom@18.3.1" "@deepseek-ai/schemastery@3.18.4"
+9 verbose logfile logs-max:10 dir:/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/.npm-cache/_logs/2026-10-14T10_08_51_665Z-
+10 verbose logfile /Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/.npm-cache/_logs/2026-10-14T10_08_51_665Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @deepseek-ai/cordis@^4.0.2
+15 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcordis cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/@deepseek-ai%2fcordis 158ms (cache miss)
+17 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcordis set size:5639 disposed:false
+18 silly fetch manifest @deepseek-ai/cordis-plugin-include@~1.0.9
+19 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcordis-plugin-include cache-miss
+20 http fetch GET 200 https://registry.npmmirror.com/@deepseek-ai%2fcordis-plugin-include 58ms (cache miss)
+21 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcordis-plugin-include set size:4407 disposed:false
+22 silly fetch manifest @deepseek-ai/cordis-plugin-loader@~1.0.5
+23 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcordis-plugin-loader cache-miss
+24 http fetch GET 200 https://registry.npmmirror.com/npm 286ms
+25 http fetch GET 200 https://registry.npmmirror.com/@deepseek-ai%2fcordis-plugin-loader 109ms (cache miss)
+26 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcordis-plugin-loader set size:5583 disposed:false
+27 silly fetch manifest node-addon-require-builtin@^0.1.6
+28 silly packumentCache full:http://registry.npm.taobao.org/node-addon-require-builtin cache-miss
+29 http fetch GET 200 https://registry.npmmirror.com/node-addon-require-builtin 82ms (cache miss)
+30 silly packumentCache full:http://registry.npm.taobao.org/node-addon-require-builtin set size:4987 disposed:false
+31 silly fetch manifest @deepseek-ai/schemastery@3.18.4
+32 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fschemastery cache-miss
+33 http fetch GET 200 https://registry.npmmirror.com/@deepseek-ai%2fschemastery 59ms (cache miss)
+34 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fschemastery set size:7319 disposed:false
+35 silly fetch manifest react@18.3.1
+36 silly packumentCache full:http://registry.npm.taobao.org/react cache-miss
+37 http fetch GET 200 https://registry.npmmirror.com/react 155ms (cache miss)
+38 silly packumentCache full:http://registry.npm.taobao.org/react set size:1277772 disposed:false
+39 silly fetch manifest react-dom@18.3.1
+40 silly packumentCache full:http://registry.npm.taobao.org/react-dom cache-miss
+41 http fetch GET 200 https://registry.npmmirror.com/react-dom 249ms (cache miss)
+42 silly packumentCache full:http://registry.npm.taobao.org/react-dom set size:1463738 disposed:false
+43 silly placeDep ROOT @deepseek-ai/cordis@4.0.4 REPLACE for: dsh-open-workspace-any-app@0.1.0 want: ^4.0.2
+44 silly placeDep ROOT @deepseek-ai/schemastery@3.18.4 REPLACE for: dsh-open-workspace-any-app@0.1.0 want: 3.18.4
+45 silly placeDep ROOT react@18.3.1 REPLACE for: dsh-open-workspace-any-app@0.1.0 want: 18.3.1
+46 silly placeDep ROOT react-dom@18.3.1 REPLACE for: dsh-open-workspace-any-app@0.1.0 want: 18.3.1
+47 silly fetch manifest @deepseek-ai/cosmokit@~1.8.5
+48 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcosmokit cache-miss
+49 silly fetch manifest @standard-schema/spec@^1.1.0
+50 silly packumentCache full:http://registry.npm.taobao.org/@standard-schema%2fspec cache-miss
+51 silly fetch manifest @deepseek-ai/cosmokit@~1.8.5
+52 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcosmokit cache-miss
+53 silly fetch manifest @standard-schema/spec@^1.1.0
+54 silly packumentCache full:http://registry.npm.taobao.org/@standard-schema%2fspec cache-miss
+55 silly fetch manifest loose-envify@^1.1.0
+56 silly packumentCache full:http://registry.npm.taobao.org/loose-envify cache-miss
+57 silly fetch manifest loose-envify@^1.1.0
+58 silly packumentCache full:http://registry.npm.taobao.org/loose-envify cache-miss
+59 silly fetch manifest scheduler@^0.23.2
+60 silly packumentCache full:http://registry.npm.taobao.org/scheduler cache-miss
+61 http fetch GET 200 https://registry.npmmirror.com/@standard-schema%2fspec 63ms (cache miss)
+62 silly packumentCache full:http://registry.npm.taobao.org/@standard-schema%2fspec set size:6517 disposed:false
+63 http fetch GET 200 https://registry.npmmirror.com/@deepseek-ai%2fcosmokit 109ms (cache miss)
+64 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcosmokit set size:4315 disposed:false
+65 http fetch GET 200 https://registry.npmmirror.com/@deepseek-ai%2fcosmokit 110ms (cache miss)
+66 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcosmokit set size:4315 disposed:false
+67 silly packumentCache full:http://registry.npm.taobao.org/@deepseek-ai%2fcosmokit dispose
+68 http fetch GET 200 https://registry.npmmirror.com/loose-envify 131ms (cache miss)
+69 silly packumentCache full:http://registry.npm.taobao.org/loose-envify set size:2934 disposed:false
+70 http fetch GET 200 https://registry.npmmirror.com/loose-envify 145ms (cache miss)
+71 silly packumentCache full:http://registry.npm.taobao.org/loose-envify set size:2934 disposed:false
+72 silly packumentCache full:http://registry.npm.taobao.org/loose-envify dispose
+73 http fetch GET 200 https://registry.npmmirror.com/@standard-schema%2fspec 155ms (cache miss)
+74 silly packumentCache full:http://registry.npm.taobao.org/@standard-schema%2fspec set size:6517 disposed:false
+75 silly packumentCache full:http://registry.npm.taobao.org/@standard-schema%2fspec dispose
+76 http fetch GET 200 https://registry.npmmirror.com/scheduler 326ms (cache miss)
+77 silly packumentCache full:http://registry.npm.taobao.org/scheduler set size:1193012 disposed:false
+78 silly placeDep ROOT @deepseek-ai/cosmokit@1.8.5 OK for: @deepseek-ai/cordis@4.0.4 want: ~1.8.5
+79 silly placeDep ROOT @standard-schema/spec@1.1.0 OK for: @deepseek-ai/cordis@4.0.4 want: ^1.1.0
+80 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.3.1 want: ^1.1.0
+81 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+82 silly packumentCache full:http://registry.npm.taobao.org/js-tokens cache-miss
+83 http fetch GET 200 https://registry.npmmirror.com/js-tokens 54ms (cache miss)
+84 silly packumentCache full:http://registry.npm.taobao.org/js-tokens set size:9897 disposed:false
+85 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+86 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+87 silly reify mark retired [
+87 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/react-dom'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/react'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/js-yaml'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/@deepseek-ai/cordis'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/@deepseek-ai/schemastery'
+91 silly reify ]
+92 silly reify moves {
+92 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/react-dom': '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/.react-dom-0oLhbtXh',
+92 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/react': '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/.react-hwrm02iw',
+92 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/js-yaml': '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/.js-yaml-ucWRe79V',
+92 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/@deepseek-ai/cordis': '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/@deepseek-ai/.cordis-SjL85bTe',
+92 silly reify   '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/@deepseek-ai/schemastery': '/Users/wangfeixiong/code/tool/dsh-open-workspace-any-app/node_modules/@deepseek-ai/.schemastery-YKSGDaAF'
+92 silly reify }
+93 http cache js-tokens@https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+94 http cache @deepseek-ai/cosmokit@https://registry.npmmirror.com/@deepseek-ai/cosmokit/-/cosmokit-1.8.5.tgz 0ms (cache hit)
+95 http cache @standard-schema/spec@https://registry.npmmirror.com/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+96 http cache loose-envify@https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+97 http cache @deepseek-ai/schemastery@https://registry.npmmirror.com/@deepseek-ai/schemastery/-/schemastery-3.18.4.tgz 0ms (cache hit)
+98 http cache react@https://registry.npmmirror.com/react/-/react-18.3.1.tgz 0ms (cache hit)
+99 http cache scheduler@https://registry.npmmirror.com/scheduler/-/scheduler-0.23.2.tgz 0ms (cache hit)
+100 http cache @deepseek-ai/cordis@https://registry.npmmirror.com/@deepseek-ai/cordis/-/cordis-4.0.4.tgz 0ms (cache hit)
+101 http cache react-dom@https://registry.npmmirror.com/react-dom/-/react-dom-18.3.1.tgz 0ms (cache hit)
+102 silly tarball no local data for js-tokens@https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+103 silly tarball no local data for @deepseek-ai/cosmokit@https://registry.npmmirror.com/@deepseek-ai/cosmokit/-/cosmokit-1.8.5.tgz. Extracting by manifest.
+104 silly tarball no local data for @standard-schema/spec@https://registry.npmmirror.com/@standard-schema/spec/-/spec-1.1.0.tgz. Extracting by manifest.
+105 silly tarball no local data for loose-envify@https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+106 silly tarball no local data for @deepseek-ai/schemastery@https://registry.npmmirror.com/@deepseek-ai/schemastery/-/schemastery-3.18.4.tgz. Extracting by manifest.
+107 silly tarball no local data for react@https://registry.npmmirror.com/react/-/react-18.3.1.tgz. Extracting by manifest.
+108 silly tarball no local data for scheduler@https://registry.npmmirror.com/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+109 silly tarball no local data for @deepseek-ai/cordis@https://registry.npmmirror.com/@deepseek-ai/cordis/-/cordis-4.0.4.tgz. Extracting by manifest.
+110 silly tarball no local data for react-dom@https://registry.npmmirror.com/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+111 http fetch GET 200 https://cdn.npmmirror.com/packages/js-tokens/4.0.0/js-tokens-4.0.0.tgz 172ms (cache miss)
+112 http fetch GET 200 https://cdn.npmmirror.com/packages/%40standard-schema/spec/1.1.0/spec-1.1.0.tgz 171ms (cache miss)
+113 http fetch GET 200 https://cdn.npmmirror.com/packages/%40deepseek-ai/schemastery/3.18.4/schemastery-3.18.4.tgz 189ms (cache miss)
+114 http fetch GET 200 https://cdn.npmmirror.com/packages/%40deepseek-ai/cosmokit/1.8.5/cosmokit-1.8.5.tgz 190ms (cache miss)
+115 http fetch GET 200 https://cdn.npmmirror.com/packages/react/18.3.1/react-18.3.1.tgz 237ms (cache miss)
+116 http fetch GET 200 https://cdn.npmmirror.com/packages/%40deepseek-ai/cordis/4.0.4/cordis-4.0.4.tgz 236ms (cache miss)
+117 http fetch GET 200 https://cdn.npmmirror.com/packages/scheduler/0.23.2/scheduler-0.23.2.tgz 268ms (cache miss)
+118 http fetch GET 200 https://cdn.npmmirror.com/packages/loose-envify/1.4.0/loose-envify-1.4.0.tgz 349ms (cache miss)
+119 http fetch GET 200 https://cdn.npmmirror.com/packages/react-dom/18.3.1/react-dom-18.3.1.tgz 378ms (cache miss)
+120 silly ADD node_modules/scheduler
+121 silly ADD node_modules/js-tokens
+122 silly ADD node_modules/loose-envify
+123 silly ADD node_modules/@standard-schema/spec
+124 silly ADD node_modules/@deepseek-ai/cosmokit
+125 silly CHANGE node_modules/@deepseek-ai/schemastery
+126 silly CHANGE node_modules/@deepseek-ai/cordis
+127 silly REMOVE node_modules/js-yaml
+128 silly CHANGE node_modules/react
+129 silly CHANGE node_modules/react-dom
+130 verbose cwd /Users/wangfeixiong/code/tool/dsh-open-workspace-any-app
+131 verbose os Darwin 25.6.0
+132 verbose node v22.23.1
+133 verbose npm  v10.9.8
+134 notice
+134 notice New major version of npm available! 10.9.8 -> 12.2.0
+134 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+134 notice To update run: npm install -g npm@12.2.0
+134 notice  { force: true, [Symbol(proc-log.meta)]: true }
+135 verbose exit 0
+136 info ok

@@ -1,0 +1,2 @@
+
+e71f0b7e4af7aa47042a6907c01c39941b9b3065	{"key":"make-fetch-happen:request-cache:http://registry.npm.taobao.org/dsh-memory-plugin","integrity":null,"time":1792031584252,"size":"262","metadata":{"time":1792031584252,"url":"http://registry.npm.taobao.org/dsh-memory-plugin","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/html","date":"Thu, 15 Oct 2026 02:33:04 GMT","location":"https://registry.npmmirror.com/dsh-memory-plugin"},"options":{"compress":true},"status":301}}
